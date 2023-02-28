@@ -72,8 +72,9 @@ int main(void) {
 
 	/* Call the function that performs emFile operations */
 	MainTask();
-	for (;;) {
-	}
+//	for (;;) {
+//		cyhal_syspm_sleep();
+//	}
 }
 
 /* [] END OF FILE */

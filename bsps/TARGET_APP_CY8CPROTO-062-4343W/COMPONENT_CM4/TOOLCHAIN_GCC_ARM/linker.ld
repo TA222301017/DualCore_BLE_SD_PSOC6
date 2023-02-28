@@ -46,14 +46,14 @@ STACK_SIZE = 0x1000;
 /* Size of RAM to be reserved for system use (at the end of RAM) */
 SYS_USE_RAM_SIZE = 0x800;
 
-CM0P_RAM_SIZE = 0x8000;
+CM0P_RAM_SIZE = 0x60000;
 
 /* By default, the COMPONENT_CM0P_SLEEP prebuilt image is used for the CM0p core.
 * More about CM0+ prebuilt images, see here:
 * https://github.com/cypresssemiconductorco/psoc6cm0p
 */
 /* The size of the Cortex-M0+ application image at the start of FLASH */
-FLASH_CM0P_SIZE  = 0x10000;
+FLASH_CM0P_SIZE  = 0x80000;
 
 /* Force symbol to be entered in the output file as an undefined symbol. Doing
 * this may, for example, trigger linking of additional modules from standard

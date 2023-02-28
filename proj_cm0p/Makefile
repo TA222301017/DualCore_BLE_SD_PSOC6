@@ -82,7 +82,7 @@ DEFINES=$(MBEDTLSFLAGS) CYBSP_WIFI_CAPABLE CY_RETARGET_IO_CONVERT_LF_TO_CRLF CY_
 # interfacing with the user button, the SDIO interrupt to wake up the host is
 # disabled by setting CY_WIFI_HOST_WAKE_SW_FORCE to '0'.
 DEFINES+=CY_WIFI_HOST_WAKE_SW_FORCE=0
-DEFINES+=CY_CORTEX_M4_APPL_ADDR=CY_FLASH_BASE+0x10000U
+DEFINES+=CY_CORTEX_M4_APPL_ADDR=CY_FLASH_BASE+0x80000U
 
 # Select softfp or hardfp floating point. Default is softfp.
 VFP_SELECT=
